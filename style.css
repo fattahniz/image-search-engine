@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #39297b;
+    color: white;
+    padding-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background: #434989;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+form input {
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+form button {
+    padding: 0 30px;
+    height: 100%;
+    background: #ff3929;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #e32b1e;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+
+#show-more-btn {
+    background: #ff3929;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 12px 25px;
+    border-radius: 6px;
+    margin: 20px auto;
+    display: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+#show-more-btn:hover {
+    background: #e32b1e;
+}
+
+#search-result {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.image-card {
+    background: #2d2467;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.image-card:hover {
+    transform: translateY(-5px);
+}
+
+.image-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-card p {
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+
+@media (max-width: 1024px) {
+    #search-result {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    #search-result {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    form input, form button {
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+    form button {
+        margin-top: 10px;
+    }
+}
