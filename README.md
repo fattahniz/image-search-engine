@@ -18,7 +18,7 @@ Error handling for empty or failed searches
 
 🚀 Live Demo
 🌐 Vercel: https://image-search-engine-smoky.vercel.app/
-📦 GitHub: 
+📦 GitHub: https://github.com/abdulfattahnizamani/image-search-engine.git
 
 Replace links with your actual GitHub & Vercel URLs.
 
