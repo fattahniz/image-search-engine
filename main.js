@@ -4,10 +4,10 @@
 // const showMoreBtn = document.getElementById('show-more-btn');
 const accessKey = "XgA0RfvZ6WsyrFVjni9Lay0OD6ZLFxV6pRirMXRhe0COxStVxfVZH9Iv";
 
-const searchForm = document.getElementById('search-form');
-const searchBox = document.getElementById('search-box');
-const searchResult = document.getElementById('search-result');
-const showMoreBtn = document.getElementById('show-more-btn');
+const searchForm = document.getElementById("search-form");
+const searchBox = document.getElementById("search-box");
+const searchResult = document.getElementById("search-result");
+const showMoreBtn = document.getElementById("show-more-btn");
 
 let query = "";
 let page = 1;
@@ -18,8 +18,8 @@ async function searchImages() {
 
   const response = await fetch(url, {
     headers: {
-      Authorization: accessKey
-    }
+      Authorization: accessKey,
+    },
   });
 
   const data = await response.json();
@@ -29,8 +29,8 @@ async function searchImages() {
     searchResult.innerHTML = "";
   }
 
-  data.photos.forEach(photo => {
-    const img = document.createElement('img');
+  data.photos.forEach((photo) => {
+    const img = document.createElement("img");
     img.src = photo.src.medium;
     img.alt = photo.photographer;
     img.style.margin = "10px";
