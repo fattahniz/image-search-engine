@@ -62,6 +62,6 @@ Abdulfattah Nizamani
 💼 Looking for frontend internships
 
 🔗 Let’s Connect
-LinkedIn: linkedin.com/in/abdulfattahnizamani
+[LinkedIn](linkedin.com/in/fattahniz)
 
-GitHub: github.com/abdulfattahnizamani/
+[GitHub](github.com/abdulfattahnizamani)
