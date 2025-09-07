@@ -61,7 +61,6 @@ Image categories or filters
 📍 Author
 **Abdulfattah Nizamani**
 📍 Islamabad, Pakistan
-💼 Looking for frontend internships
 
 🔗 Let’s Connect
 **[LinkedIn](linkedin.com/in/fattahniz)**
