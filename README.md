@@ -18,7 +18,7 @@ Error handling for empty or failed searches
 
 🚀 Live Demo
 [🌐 Vercel](https://image-search-engine-smoky.vercel.app/)
-📦 GitHub: https://github.com/abdulfattahnizamani/image-search-engine.git
+📦 [GitHub](https://github.com/abdulfattahnizamani/image-search-engine.git)
 
 Replace links with your actual GitHub & Vercel URLs.
 
@@ -33,14 +33,16 @@ Deployment: Vercel
 ⚙️ How to Use
 1. Clone the repository
 bash
-Copy
+2. Copy
 Edit
+```bash
 git clone https://github.com/abdulfattahnizamani/image-search-engine.git
 cd image-search-engine
-2. Open in Browser
+```
+3. Open in Browser
 You can directly open index.html in your browser, or use Live Server in VS Code.
 
-3. Add your Pexels API key
+4. Add your Pexels API key
 Replace "https://api.pexels.com/v1/search?query&per_page=12&page1" in the script with your actual API key:
 
 js
@@ -57,11 +59,10 @@ Save favorites
 Image categories or filters
 
 📍 Author
-Abdulfattah Nizamani
+**Abdulfattah Nizamani**
 📍 Islamabad, Pakistan
 💼 Looking for frontend internships
 
 🔗 Let’s Connect
-[LinkedIn](linkedin.com/in/fattahniz)
+**[LinkedIn](linkedin.com/in/fattahniz)**
 
-[GitHub](github.com/abdulfattahnizamani)
