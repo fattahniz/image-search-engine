@@ -13,7 +13,7 @@ A sleek and responsive image search engine that fetches stunning results using t
 - [License](#license)
 
 
-  ## 📌 About
+## 📌 About
   Image Search Engine that fetches high-quality images from the Pexels API with a responsive frontend built using HTML, CSS, and JavaScript.
   
 
@@ -35,8 +35,8 @@ Deployment: Vercel
 ## ⚙️ Installation
 1. Clone the repo
 ```bash
-   git clone https://github.com/username/project-name.git
-cd project-name
+   git clone https://github.com/fattahniz/image-searcg-engine.git
+cd image-searcg-engine
 ```
 
 2. Setup API Key
