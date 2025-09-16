@@ -13,9 +13,9 @@ Mobile-friendly design
 Error handling for empty or failed searches
 
 ## 🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript (ES6+)
-API: Pexels Developer API
-Deployment: Vercel
+**Frontend:** HTML, CSS, JavaScript (ES6+)
+**API:** Pexels Developer API
+**Deployment:** Vercel
 
 ## ⚙️ Installation
 1. Clone the repo
