@@ -1,21 +1,8 @@
 🌐 Image Search Engine
 A sleek and responsive image search engine that fetches stunning results using the Pexels API. Built with HTML, CSS, and JavaScript — it’s fast, simple, and user-friendly.
 
-## 📖 Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
-
 ## 📌 About
 Image Search Engine that fetches high-quality images from the Pexels API with a responsive frontend built using HTML, CSS, and JavaScript.
-  
 
 ## 🔍 Features
 Real-time image search
@@ -25,18 +12,16 @@ Loading animation
 Mobile-friendly design
 Error handling for empty or failed searches
 
-
 ## 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript (ES6+)
 API: Pexels Developer API
 Deployment: Vercel
 
-
 ## ⚙️ Installation
 1. Clone the repo
 ```bash
    git clone https://github.com/fattahniz/image-search-engine.git
-cd image-searcg-engine
+cd image-search-engine
 ```
 
 2. Setup API Key
