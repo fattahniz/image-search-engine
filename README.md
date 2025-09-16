@@ -14,7 +14,9 @@ Error handling for empty or failed searches
 
 ## 🛠️ Tech Stack
 **Frontend:** HTML, CSS, JavaScript (ES6+)
+
 **API:** Pexels Developer API
+
 **Deployment:** Vercel
 
 ## ⚙️ Installation
